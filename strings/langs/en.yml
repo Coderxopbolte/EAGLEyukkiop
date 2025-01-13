@@ -141,7 +141,7 @@ cplay_5: "🚫 Only channels are supported."
 cplay_6: "🔑 You need to be the **owner** of the channel [{0}] to connect it with this group.\n**Channel's owner:** @{1}\n\nAlternatively, you can link your group to that channel and then try connecting with `/channelplay linked`."
 
 # Play Messages
-play_1: "🔄 **Processing...**"
+play_1: "🔄 **❍ ʜᴏʟᴅ ᴏɴ ʙᴀʙʏ....♡**"
 play_2: "📺 **Channel play mode**\nProcessing query... please wait!\n\n**Linked channel:** {0}"
 play_3: "❌ Failed to process query!"
 play_4: "🔒 **Admins only play**\nOnly admins and auth users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache or /reload."
