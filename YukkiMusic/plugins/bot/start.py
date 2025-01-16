@@ -207,8 +207,8 @@ async def start_comm(client, message: Message, _):
                 )
     else:
         try:
-            await app.resolve_peer(OWNER_ID[0])
-            OWNER = OWNER_ID[0]
+            await app.resolve_peer(config.LOG_GROUP_ID)
+            OWNER = config.LOG_GROUP_ID
         except Exception:
             OWNER = None
         out = private_panel(_, app.username, OWNER)
