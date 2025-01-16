@@ -5,8 +5,7 @@ dnspython
 ffmpeg-python
 gitpython
 heroku3
-httpx[http2]==0.27.2
-kurigram==2.1.35
+kurigram==2.1.36
 lyricsgenius
 motor
 psutil
@@ -25,3 +24,4 @@ gunicorn
 youtube-search-python
 yt-dlp
 git+https://github.com/Vivekkumar-IN/pykeyboard
+git+https://github.com/Kanha-XD/youtube-search-python
