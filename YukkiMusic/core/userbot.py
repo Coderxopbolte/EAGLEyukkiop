@@ -55,11 +55,23 @@ class Userbot(Client):
                     sys.exit(1)
 
             get_me = await client.get_me()
-            client.username = get_me.username
-            client.id = get_me.id
-            client.mention = get_me.mention
+            try:
+                client.username = get_me.username
+            except Exception:
+                client.username = "Eagle_xD"
+            try:
+                client.id = get_me.id
+            except Exception:
+                client.id = 12345678
+            try:
+                client.mention = get_me.mention
+            except Exception:
+                client.metion = None
             assistantids.append(get_me.id)
-            client.name = f"{get_me.first_name} {get_me.last_name or ''}".strip()
+            try:
+                client.name = f"{get_me.first_name} {get_me.last_name or ''}".strip()
+            except Exception:
+                client.name = "Eagle"
 
         except Exception as e:
             LOGGER(__name__).error(
